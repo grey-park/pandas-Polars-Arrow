@@ -17,7 +17,7 @@
 2. The timing of the same query in both.
 3. How a table is passed from Polars to pandas through Arrow, without a copy.
 
-## The demo: "1_demo.ipynb"
+## The demo: `1_demo.ipynb`
 
 ```bash
 git clone https://github.com/grey-park/pandas-Polars-Arrow
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 jupyter lab 1_demo.ipynb
 ```
 
-## The data loader: "0_make_data.ipynb"
+## The data loader: `0_make_data.ipynb`
 
 The data comes from SwissMetNet with one value every 10 minutes per station. 
 The two Parquet files are already in the repo:

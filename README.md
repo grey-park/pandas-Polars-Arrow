@@ -37,7 +37,7 @@ The two Parquet files are already in the repo:
 `0_make_data.ipynb` downloads the data again and rebuilds these two files.
 It keeps the last 180 days.
 
-## the operations benchmark: "2_benchmark.py"
+## the operations benchmark: `2_benchmark.ipynb`
 
 `benchmark.py` times the query step by step to compare pandas and Polars.
 
